@@ -1,0 +1,31 @@
+WINDOW_WIDTH = 2000
+WINDOW_HEIGHT = 1300
+
+WINDOW_TITLE = "Langton's ant simulator"
+
+BACKGROUND_COLOR = (18, 18, 18)
+GRID_LINE_COLOR = (35, 35, 35)
+DEFAULT_COLOR_MODE = "rainbow" #grayscale / rainbow / random
+
+CELL_SIZE = 5
+FPS = 60
+
+ANT_COLOR = (255, 200, 0)
+FILLED_CELL_COLOR = (240, 240, 240)
+TEXT_COLOR = (220, 220, 220)
+
+DEFAULT_STEPS_PER_FRAME = 1
+MIN_STEPS_PER_FRAME = 1
+MAX_STEPS_PER_FRAME = 500
+
+DEFAULT_RULE = "RL"
+
+
+
+#siisteimmät
+
+# RRLLLRLLLRRR Kolmio
+
+# LLRR Symmetrinen
+
+# RLRL sykkyrähighway
